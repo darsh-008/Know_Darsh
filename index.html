@@ -1,461 +1,873 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Darsh Bhatt | Data Engineer, Applied AI, Software Engineer</title>
-  <meta
-    name="description"
-    content="Darsh Bhatt is a data engineer and applied AI engineer with experience across data pipelines, cloud workflows, intelligent products, and backend systems."
-  />
-  <meta name="theme-color" content="#f4efe7" />
-  <link rel="icon" type="image/png" href="img/fav_r.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Go to top">Darsh Bhatt</a>
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="site-nav"
-        aria-label="Toggle navigation"
-      >
-        Menu
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#build">What I Build</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darsh Bhatt | Data, Applied AI &amp; Software Engineering</title>
+    <meta
+      name="description"
+      content="Darsh Bhatt is a Toronto-based Data and Applied AI engineer building reliable data pipelines, useful AI workflows, and backend systems. Explore his experience, impact, and technical work."
+    />
+    <meta name="theme-color" content="#f5f1ea" />
+    <link rel="canonical" href="https://darsh-008.github.io/Know_Darsh/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Darsh Bhatt | Data, Applied AI &amp; Software Engineering"
+    />
+    <meta
+      property="og:description"
+      content="Good data. Useful AI. Solid engineering. Explore Darsh's work across enterprise AI, research data platforms, and backend systems."
+    />
+    <meta property="og:url" content="https://darsh-008.github.io/Know_Darsh/" />
+    <meta
+      property="og:image"
+      content="https://darsh-008.github.io/Know_Darsh/img/Darsh_Headshot.jpeg"
+    />
+    <meta property="og:image:alt" content="Darsh Bhatt" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/svg+xml" href="img/monogram.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg
+      class="icon-library"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <symbol id="arrow-up-right" viewBox="0 0 24 24">
+        <path d="M6 18 18 6M6 6h12v12" />
+      </symbol>
+      <symbol id="arrow-down" viewBox="0 0 24 24">
+        <path d="M12 4v16m-6-6 6 6 6-6" />
+      </symbol>
+      <symbol id="download" viewBox="0 0 24 24">
+        <path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5" />
+      </symbol>
+      <symbol id="mail" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="m3 7 9 6 9-6" />
+      </symbol>
+      <symbol id="database" viewBox="0 0 24 24">
+        <ellipse cx="12" cy="5" rx="8" ry="3" />
+        <path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0" />
+      </symbol>
+      <symbol id="nodes" viewBox="0 0 24 24">
+        <circle cx="5" cy="6" r="2" />
+        <circle cx="19" cy="6" r="2" />
+        <circle cx="12" cy="18" r="2" />
+        <path d="M7 6h10M6 8l5 8M18 8l-5 8" />
+      </symbol>
+      <symbol id="code" viewBox="0 0 24 24">
+        <path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 4l-4 16" />
+      </symbol>
+      <symbol id="location" viewBox="0 0 24 24">
+        <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" />
+        <circle cx="12" cy="10" r="2" />
+      </symbol>
+    </svg>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Data Engineering • Applied AI • Software Engineering</p>
-          <h1>Building data workflows, intelligent products, and reliable backend systems.</h1>
-          <p class="hero-text">
-            I’m Darsh Bhatt, a data-focused engineer with experience building
-            Python-based pipelines, cloud workflows, RAG-powered products, and backend
-            services across research and product environments.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="Resume/Darsh_Resume.pdf" target="_blank" rel="noreferrer">
-              View Resume
-            </a>
-            <a class="button button-secondary" href="#contact">Let’s Connect</a>
-          </div>
-          <ul class="social-links" aria-label="Social links">
-            <li><a href="mailto:darshb.08@gmail.com">Email</a></li>
-            <li><a href="https://github.com/darsh-008" target="_blank" rel="noreferrer">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/darshb08/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-          </ul>
-        </div>
+    <div class="site-shell" id="top">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Darsh Bhatt, back to top"
+          ><span class="brand-mark" aria-hidden="true">db.</span
+          ><span>Darsh Bhatt</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigation"
+          hidden
+        >
+          <span>Menu</span><span class="menu-lines" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="#work">Experience</a>
+          <a href="#build">Selected work</a>
+          <a href="#skills">Skills</a>
+          <a href="#about">About</a>
+          <a class="nav-contact" href="#contact"
+            >Let&rsquo;s talk
+            <svg class="icon" aria-hidden="true">
+              <use href="#arrow-up-right" /></svg
+          ></a>
+        </nav>
+      </header>
 
-        <div class="hero-card">
-          <div class="portrait-wrap">
-            <img src="img/Darsh_Headshot.jpeg" alt="Portrait of Darsh Bhatt" />
+      <main id="main" tabindex="-1">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow hero-enter">
+              Data Engineering <span aria-hidden="true">/</span> Applied AI
+              <span aria-hidden="true">/</span> Software
+            </p>
+            <h1 class="hero-enter" id="hero-title">
+              Good data.<br /><em>Useful AI.</em><br />Solid engineering.
+            </h1>
+            <p class="hero-intro hero-enter">I&rsquo;m Darsh Bhatt.</p>
+            <p class="hero-text hero-enter">
+              Data and Applied AI engineer with production-minded software
+              engineering experience. I build the pipelines, intelligent
+              workflows, and backend systems that turn complex problems into
+              useful tools.
+            </p>
+            <div class="hero-actions hero-enter">
+              <a
+                class="button button-primary"
+                href="Resume/Darsh_Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                >View resume
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg
+              ></a>
+              <a class="button button-secondary" href="#work"
+                >Explore my experience
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-down" /></svg
+              ></a>
+            </div>
+            <div class="hero-links hero-enter">
+              <span class="location"
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#location" />
+                </svg>
+                Toronto, Canada</span
+              >
+              <a
+                href="https://www.linkedin.com/in/darshb08/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg
+              ></a>
+              <a
+                href="https://github.com/darsh-008"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg
+              ></a>
+            </div>
           </div>
-          <div class="hero-facts">
+
+          <div class="hero-visual hero-enter">
+            <div class="portrait-frame">
+              <div class="portrait-topline">
+                <span>THE PERSON BEHIND THE WORK</span
+                ><span aria-hidden="true">01 / DB</span>
+              </div>
+              <div class="portrait-wrap">
+                <img
+                  src="img/Darsh_Headshot.jpeg"
+                  alt="Darsh Bhatt"
+                  width="800"
+                  height="800"
+                  fetchpriority="high"
+                />
+              </div>
+              <div class="portrait-caption">
+                <span class="status-dot" aria-hidden="true"></span>
+                <div>
+                  <span class="fact-label">Current work</span
+                  ><strong>AI Engineer</strong
+                  ><span>Charger Logistics Inc.</span>
+                </div>
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" />
+                </svg>
+              </div>
+            </div>
+            <div class="focus-note">
+              <span class="fact-label">Focus</span
+              ><strong>Data, Cloud, Applied AI, Backend</strong
+              ><span class="focus-line" aria-hidden="true"></span>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="impact-section"
+          aria-label="Selected results from my work"
+        >
+          <div class="impact-intro">
+            <span class="eyebrow">Engineering, with impact</span
+            ><span>Results from research and product work.</span>
+          </div>
+          <div class="impact-grid">
+            <a class="impact-item" href="#windsor" data-reveal
+              ><span class="impact-value">1M<span>+</span></span
+              ><strong>Records processed</strong
+              ><span>Research data pipelines</span
+              ><svg class="icon" aria-hidden="true">
+                <use href="#arrow-up-right" /></svg
+            ></a>
+            <a class="impact-item" href="#windsor" data-reveal
+              ><span class="impact-value">50<span>%</span></span
+              ><strong>Lower pipeline runtime</strong
+              ><span>University of Windsor</span
+              ><svg class="icon" aria-hidden="true">
+                <use href="#arrow-up-right" /></svg
+            ></a>
+            <a class="impact-item" href="#windsor" data-reveal
+              ><span class="impact-value">80<span>%</span></span
+              ><strong>Less manual support</strong
+              ><span>Internal lab assistant</span
+              ><svg class="icon" aria-hidden="true">
+                <use href="#arrow-up-right" /></svg
+            ></a>
+            <a class="impact-item" href="#zenquip" data-reveal
+              ><span class="impact-value">40<span>%</span></span
+              ><strong>Lower token cost</strong
+              ><span>ZenQuip RAG workflows</span
+              ><svg class="icon" aria-hidden="true">
+                <use href="#arrow-up-right" /></svg
+            ></a>
+          </div>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+          <div class="section-heading" data-reveal>
             <div>
-              <span class="fact-label">Based in</span>
-              <strong>Toronto, Ontario, Canada</strong>
+              <p class="eyebrow">
+                <span class="section-number">01</span> Experience
+              </p>
+              <h2 id="work-title">Built in the <em>real world.</em></h2>
             </div>
+            <p>
+              From research data to enterprise AI, with software engineering
+              connecting the two.
+            </p>
+          </div>
+          <div class="work-grid">
+            <article
+              class="work-card work-card-current"
+              id="charger"
+              data-reveal
+            >
+              <div class="work-meta">
+                <span class="work-date">Aug 2026 - Present</span
+                ><span class="current-badge"
+                  ><span class="status-dot" aria-hidden="true"></span> Current
+                  role</span
+                ><span class="work-domain">Enterprise AI</span>
+              </div>
+              <div class="work-content">
+                <div class="work-card-top">
+                  <div>
+                    <h3>Charger Logistics Inc.</h3>
+                    <p class="role">AI Engineer</p>
+                  </div>
+                  <span class="company-monogram" aria-hidden="true">CL</span>
+                </div>
+                <p class="work-summary">
+                  Connecting enterprise data, tools, and LLMs to support
+                  operational workflows.
+                </p>
+                <ul
+                  class="tag-list compact-tags"
+                  aria-label="Technologies at Charger Logistics"
+                >
+                  <li>LangGraph</li>
+                  <li>RAG</li>
+                  <li>Agentic Workflows</li>
+                  <li>MCP</li>
+                  <li>Python</li>
+                  <li>Docker</li>
+                  <li>Kubernetes</li>
+                </ul>
+                <details class="work-details" open>
+                  <summary>
+                    <span class="details-closed">View responsibilities</span
+                    ><span class="details-open">Hide responsibilities</span
+                    ><span class="details-plus" aria-hidden="true"></span>
+                  </summary>
+                  <ul class="work-list">
+                    <li>
+                      Developing LLM-powered workflows using LangGraph, RAG, and
+                      agentic orchestration for enterprise operational use
+                      cases.
+                    </li>
+                    <li>
+                      Building context and retrieval workflows that integrate
+                      LLMs with internal data sources, APIs, and tools using
+                      structured outputs and function calling.
+                    </li>
+                    <li>
+                      Evaluating retrieval, prompt, and context strategies to
+                      improve grounding, response quality, token usage, and
+                      reliability across LLM workflows.
+                    </li>
+                    <li>
+                      Working with MCP-based tool integrations to enable LLM
+                      agents to securely interact with enterprise systems,
+                      services, and external capabilities.
+                    </li>
+                    <li>
+                      Supporting Python-based AI services and containerized
+                      deployment workflows using Docker and Kubernetes.
+                    </li>
+                  </ul>
+                </details>
+              </div>
+            </article>
+
+            <article class="work-card" id="windsor" data-reveal>
+              <div class="work-meta">
+                <span class="work-date">May 2024 - Aug 2026</span
+                ><span class="work-domain">Research &amp; data systems</span>
+              </div>
+              <div class="work-content">
+                <div class="work-card-top">
+                  <div>
+                    <h3>University of Windsor</h3>
+                    <p class="role">Research Assistant 2</p>
+                  </div>
+                  <span class="company-monogram" aria-hidden="true">UW</span>
+                </div>
+                <p class="work-summary">
+                  Turning complex biological data and internal knowledge into
+                  reproducible workflows and useful tools.
+                </p>
+                <p class="work-outcome">
+                  <span>1M+ records</span><span>50% lower runtime</span
+                  ><span>80% less manual support</span>
+                </p>
+                <ul
+                  class="tag-list compact-tags"
+                  aria-label="Technologies at the University of Windsor"
+                >
+                  <li>Python</li>
+                  <li>R</li>
+                  <li>SQL</li>
+                  <li>Docker</li>
+                  <li>Kubernetes</li>
+                  <li>HPC</li>
+                  <li>RAG</li>
+                </ul>
+                <details class="work-details">
+                  <summary>
+                    <span class="details-closed">View responsibilities</span
+                    ><span class="details-open">Hide responsibilities</span
+                    ><span class="details-plus" aria-hidden="true"></span>
+                  </summary>
+                  <ul class="work-list">
+                    <li>
+                      Built Python, R, and SQL pipelines for 1M+
+                      phospho-proteomic records, reducing end-to-end runtime by
+                      50%.
+                    </li>
+                    <li>
+                      Developed reproducible data preparation and quality-check
+                      workflows that converted raw biological data into
+                      analysis-ready datasets.
+                    </li>
+                    <li>
+                      Designed containerized analysis workflows using Docker,
+                      Kubernetes, and HPC resources for compute-intensive
+                      bioinformatics processing.
+                    </li>
+                    <li>
+                      Built a RAG-based internal lab assistant over technical
+                      documentation, reducing manual support by 80% through
+                      better self-serve access.
+                    </li>
+                  </ul>
+                </details>
+              </div>
+            </article>
+
+            <article class="work-card" id="zenquip" data-reveal>
+              <div class="work-meta">
+                <span class="work-date">Jan 2026 - Aug 2026</span
+                ><span class="work-domain">Applied AI &amp; product</span>
+              </div>
+              <div class="work-content">
+                <div class="work-card-top">
+                  <div>
+                    <h3>ZenQuip</h3>
+                    <p class="role">Applied AI Developer, Part-time</p>
+                  </div>
+                  <span class="company-monogram" aria-hidden="true">ZQ</span>
+                </div>
+                <p class="work-summary">
+                  Building grounded conversational workflows for an
+                  in-development mental health platform.
+                </p>
+                <p class="work-outcome">
+                  <span>40% lower token cost per request</span>
+                </p>
+                <ul
+                  class="tag-list compact-tags"
+                  aria-label="Technologies at ZenQuip"
+                >
+                  <li>LangGraph</li>
+                  <li>RAG</li>
+                  <li>OpenAI</li>
+                  <li>Anthropic</li>
+                  <li>Groq</li>
+                  <li>Vector Search</li>
+                </ul>
+                <details class="work-details">
+                  <summary>
+                    <span class="details-closed">View responsibilities</span
+                    ><span class="details-open">Hide responsibilities</span
+                    ><span class="details-plus" aria-hidden="true"></span>
+                  </summary>
+                  <ul class="work-list">
+                    <li>
+                      Developed LangGraph-powered RAG pipelines with vector
+                      retrieval to improve grounding and surface relevant
+                      support resources.
+                    </li>
+                    <li>
+                      Built LLM-based workflows for a mental health platform to
+                      support guided conversational interactions and user
+                      assistance.
+                    </li>
+                    <li>
+                      Worked across OpenAI, Anthropic, and Groq APIs to refine
+                      prompt behavior and reduce token cost per request by 40%.
+                    </li>
+                    <li>
+                      Implemented context-aware application logic to make
+                      product behavior more reliable and aligned with user
+                      support needs.
+                    </li>
+                  </ul>
+                </details>
+              </div>
+            </article>
+
+            <article class="work-card" id="techtrio" data-reveal>
+              <div class="work-meta">
+                <span class="work-date">Jan 2022 - Jun 2022</span
+                ><span class="work-domain">Backend &amp; cloud</span>
+              </div>
+              <div class="work-content">
+                <div class="work-card-top">
+                  <div>
+                    <h3>TechTrio Solutions</h3>
+                    <p class="role">Software Engineering Intern</p>
+                  </div>
+                  <span class="company-monogram" aria-hidden="true">TT</span>
+                </div>
+                <p class="work-summary">
+                  Developing APIs, services, and automation for internal
+                  applications.
+                </p>
+                <p class="work-outcome">
+                  <span>30% less manual operational effort</span>
+                </p>
+                <ul
+                  class="tag-list compact-tags"
+                  aria-label="Technologies at TechTrio"
+                >
+                  <li>Python</li>
+                  <li>Flask</li>
+                  <li>REST APIs</li>
+                  <li>SQL</li>
+                  <li>Docker</li>
+                  <li>AWS EC2</li>
+                </ul>
+                <details class="work-details">
+                  <summary>
+                    <span class="details-closed">View responsibilities</span
+                    ><span class="details-open">Hide responsibilities</span
+                    ><span class="details-plus" aria-hidden="true"></span>
+                  </summary>
+                  <ul class="work-list">
+                    <li>
+                      Built Python-based microservices and backend components
+                      for internal applications and service-to-service
+                      integrations.
+                    </li>
+                    <li>
+                      Developed Flask REST APIs backed by relational databases
+                      for secure and scalable internal tooling.
+                    </li>
+                    <li>
+                      Containerized backend services with Docker and supported
+                      AWS EC2 deployment for more reliable environments.
+                    </li>
+                    <li>
+                      Automated SQL- and API-driven workflows, reducing manual
+                      operational effort by 30% and improving reporting
+                      consistency.
+                    </li>
+                  </ul>
+                </details>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="build" aria-labelledby="build-title">
+          <div class="section-heading" data-reveal>
             <div>
-              <span class="fact-label">Current work</span>
-              <strong>Charger Logistics Inc.</strong>
+              <p class="eyebrow">
+                <span class="section-number">02</span> Selected work
+              </p>
+              <h2 id="build-title">
+                Two disciplines.<br /><em>One engineering mindset.</em>
+              </h2>
             </div>
+            <p>
+              A closer look at the systems I build, drawn from my research and
+              industry experience.
+            </p>
+          </div>
+          <div class="build-grid">
+            <article class="build-card data-card" data-reveal>
+              <div class="build-card-head">
+                <span class="build-label">Data engineering</span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#database" />
+                </svg>
+              </div>
+              <div class="system-diagram" aria-hidden="true">
+                <div class="diagram-top">
+                  <span>RESEARCH DATA WORKFLOW</span
+                  ><span class="diagram-dots"><i></i><i></i><i></i></span>
+                </div>
+                <div class="diagram-flow">
+                  <span class="flow-node"
+                    ><svg class="icon"><use href="#database" /></svg
+                    ><span>Raw data</span></span
+                  ><span class="flow-track"></span
+                  ><span class="flow-node flow-node-main"
+                    ><svg class="icon"><use href="#code" /></svg
+                    ><span>Transform</span></span
+                  ><span class="flow-track"></span
+                  ><span class="flow-node"
+                    ><svg class="icon"><use href="#nodes" /></svg
+                    ><span>Analyze</span></span
+                  >
+                </div>
+                <div class="diagram-foot">
+                  <span>Python / R / SQL</span
+                  ><span>Reproducible by design</span>
+                </div>
+              </div>
+              <div class="build-content">
+                <h3>From raw data to<br />research-ready datasets.</h3>
+                <p>
+                  Processing and quality-check workflows for 1M+
+                  phospho-proteomic records, with containerized analysis on
+                  Docker, Kubernetes, and HPC resources.
+                </p>
+                <div class="build-result">
+                  <strong>50%</strong
+                  ><span>lower end-to-end pipeline runtime</span>
+                </div>
+                <a class="text-link" href="#windsor"
+                  >Explore the Windsor experience
+                  <svg class="icon" aria-hidden="true">
+                    <use href="#arrow-up-right" /></svg
+                ></a>
+              </div>
+            </article>
+            <article class="build-card ai-card" data-reveal>
+              <div class="build-card-head">
+                <span class="build-label">Applied AI</span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#nodes" />
+                </svg>
+              </div>
+              <div class="system-diagram" aria-hidden="true">
+                <div class="diagram-top">
+                  <span>RETRIEVAL-AUGMENTED WORKFLOW</span
+                  ><span class="diagram-dots"><i></i><i></i><i></i></span>
+                </div>
+                <div class="diagram-flow">
+                  <span class="flow-node"
+                    ><svg class="icon"><use href="#database" /></svg
+                    ><span>Retrieve</span></span
+                  ><span class="flow-track"></span
+                  ><span class="flow-node flow-node-main"
+                    ><svg class="icon"><use href="#nodes" /></svg
+                    ><span>Context</span></span
+                  ><span class="flow-track"></span
+                  ><span class="flow-node"
+                    ><svg class="icon"><use href="#mail" /></svg
+                    ><span>Respond</span></span
+                  >
+                </div>
+                <div class="diagram-foot">
+                  <span>LangGraph / Vector search</span
+                  ><span>Grounded in context</span>
+                </div>
+              </div>
+              <div class="build-content">
+                <h3>From internal knowledge<br />to useful answers.</h3>
+                <p>
+                  Retrieval workflows and conversational logic for ZenQuip,
+                  using multiple LLM APIs to refine grounding, prompt behavior,
+                  and cost per request.
+                </p>
+                <div class="build-result">
+                  <strong>40%</strong
+                  ><span>lower token cost through adaptive RAG tuning</span>
+                </div>
+                <a class="text-link" href="#zenquip"
+                  >Explore the ZenQuip experience
+                  <svg class="icon" aria-hidden="true">
+                    <use href="#arrow-up-right" /></svg
+                ></a>
+              </div>
+            </article>
+            <article class="backend-card" data-reveal>
+              <div class="backend-icon">
+                <svg class="icon" aria-hidden="true"><use href="#code" /></svg>
+              </div>
+              <div>
+                <span class="build-label">The software underneath</span>
+                <h3>The services that connect it all.</h3>
+                <p>
+                  Python microservices, Flask REST APIs, SQL automation, and AWS
+                  deployments. The engineering foundation that makes data and AI
+                  useful in an application.
+                </p>
+              </div>
+              <a class="text-link" href="#techtrio"
+                >Backend experience
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg
+              ></a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills" aria-labelledby="skills-title">
+          <div class="section-heading" data-reveal>
             <div>
-              <span class="fact-label">Focus</span>
-              <strong>Data, Cloud, Applied AI, Backend</strong>
+              <p class="eyebrow">
+                <span class="section-number">03</span> Technical toolkit
+              </p>
+              <h2 id="skills-title">The tools behind <em>the work.</em></h2>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="proof-strip" aria-label="Profile highlights">
-        <article class="proof-item">
-          <span class="proof-kicker">Current positioning</span>
-          <strong>Data and Applied AI engineer with production-minded software engineering experience.</strong>
-        </article>
-        <article class="proof-item">
-          <span class="proof-kicker">Core stacks</span>
-          <strong>Python, SQL, ETL, Docker, Kubernetes, AWS, RAG, LangGraph, APIs.</strong>
-        </article>
-        <article class="proof-item">
-          <span class="proof-kicker">Best fit</span>
-          <strong>Teams that need scalable data workflows, practical AI delivery, and dependable backend support.</strong>
-        </article>
-      </section>
-
-      <section class="section" id="about">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>Strong in data systems, practical AI execution, and dependable engineering.</h2>
-        </div>
-        <div class="about-grid">
-          <div class="panel">
             <p>
-              I recently completed a Master of Applied Computing at the University of
-              Windsor and now work at the intersection of research engineering and
-              data-intensive delivery, building systems that move from raw data and
-              internal knowledge to usable tools, reliable services, and production-ready
-              outcomes.
+              Data and AI at the core. Cloud infrastructure and software
+              engineering across the stack.
             </p>
-            <p>
-              My experience spans ETL-style data engineering, cloud-native workflows,
-              RAG pipelines, LLM workflow design, and backend development. I’m strongest
-              when turning ambiguous technical problems into practical systems teams can
-              actually use.
-            </p>
-          </div>
-          <div class="panel stat-panel">
-            <div class="stat">
-              <span class="stat-value">80%</span>
-              <span class="stat-label">manual support reduction from retrieval and prompt workflow improvements</span>
-            </div>
-            <div class="stat">
-              <span class="stat-value">50%</span>
-              <span class="stat-label">runtime improvement across large-scale research data pipelines</span>
-            </div>
-            <div class="stat">
-              <span class="stat-value">40%</span>
-              <span class="stat-label">token cost reduction through adaptive RAG workflow tuning</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="work">
-        <div class="section-heading">
-          <p class="eyebrow">Work Experience</p>
-          <h2>Experience across data engineering, applied AI, and software delivery.</h2>
-        </div>
-        <div class="work-grid">
-          <article class="work-card">
-            <div class="work-card-top">
-              <h3>Charger Logistics Inc.</h3>
-              <span class="work-date">Aug 2026 - Present</span>
-            </div>
-            <p class="role">AI Engineer</p>
-            <ul class="work-list">
-              <li>Developing LLM-powered workflows using LangGraph, RAG, and agentic orchestration for enterprise operational use cases.</li>
-              <li>Building context and retrieval workflows that integrate LLMs with internal data sources, APIs, and tools using structured outputs and function calling.</li>
-              <li>Evaluating retrieval, prompt, and context strategies to improve grounding, response quality, token usage, and reliability across LLM workflows.</li>
-              <li>Working with MCP-based tool integrations to enable LLM agents to securely interact with enterprise systems, services, and external capabilities.</li>
-              <li>Supporting Python-based AI services and containerized deployment workflows using Docker and Kubernetes.</li>
-            </ul>
-            <ul class="tag-list compact-tags">
-              <li>LangGraph</li>
-              <li>RAG</li>
-              <li>Agentic Workflows</li>
-              <li>MCP</li>
-              <li>Python</li>
-              <li>Docker</li>
-              <li>Kubernetes</li>
-            </ul>
-          </article>
-
-          <article class="work-card">
-            <div class="work-card-top">
-              <h3>University of Windsor</h3>
-              <span class="work-date">May 2024 - Aug 2026</span>
-            </div>
-            <p class="role">Research Assistant 2</p>
-            <ul class="work-list">
-              <li>Built Python, R, and SQL pipelines for 1M+ phospho-proteomic records, reducing end-to-end runtime by 50%.</li>
-              <li>Developed reproducible data preparation and quality-check workflows that converted raw biological data into analysis-ready datasets.</li>
-              <li>Designed containerized analysis workflows using Docker, Kubernetes, and HPC resources for compute-intensive bioinformatics processing.</li>
-              <li>Built a RAG-based internal lab assistant over technical documentation, reducing manual support by 80% through better self-serve access.</li>
-            </ul>
-            <ul class="tag-list compact-tags">
-              <li>Python</li>
-              <li>R</li>
-              <li>SQL</li>
-              <li>Docker</li>
-              <li>Kubernetes</li>
-              <li>HPC</li>
-              <li>RAG</li>
-            </ul>
-          </article>
-
-          <article class="work-card">
-            <div class="work-card-top">
-              <h3>ZenQuip</h3>
-              <span class="work-date">Jan 2026 - Aug 2026</span>
-            </div>
-            <p class="role">Applied AI Developer, Part-time</p>
-            <ul class="work-list">
-              <li>Developed LangGraph-powered RAG pipelines with vector retrieval to improve grounding and surface relevant support resources.</li>
-              <li>Built LLM-based workflows for a mental health platform to support guided conversational interactions and user assistance.</li>
-              <li>Worked across OpenAI, Anthropic, and Groq APIs to refine prompt behavior and reduce token cost per request by 40%.</li>
-              <li>Implemented context-aware application logic to make product behavior more reliable and aligned with user support needs.</li>
-            </ul>
-            <ul class="tag-list compact-tags">
-              <li>LangGraph</li>
-              <li>RAG</li>
-              <li>OpenAI</li>
-              <li>Anthropic</li>
-              <li>Groq</li>
-              <li>Vector Search</li>
-            </ul>
-          </article>
-
-          <article class="work-card">
-            <div class="work-card-top">
-              <h3>TechTrio Solutions</h3>
-              <span class="work-date">Jan 2022 - Jun 2022</span>
-            </div>
-            <p class="role">Software Engineering Intern</p>
-            <ul class="work-list">
-              <li>Built Python-based microservices and backend components for internal applications and service-to-service integrations.</li>
-              <li>Developed Flask REST APIs backed by relational databases for secure and scalable internal tooling.</li>
-              <li>Containerized backend services with Docker and supported AWS EC2 deployment for more reliable environments.</li>
-              <li>Automated SQL- and API-driven workflows, reducing manual operational effort by 30% and improving reporting consistency.</li>
-            </ul>
-            <ul class="tag-list compact-tags">
-              <li>Python</li>
-              <li>Flask</li>
-              <li>REST APIs</li>
-              <li>SQL</li>
-              <li>Docker</li>
-              <li>AWS EC2</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="build">
-        <div class="section-heading">
-          <p class="eyebrow">What I Build</p>
-          <h2>Systems that combine scalable data foundations with useful intelligence.</h2>
-        </div>
-        <div class="build-grid">
-          <article class="panel build-card">
-            <p class="build-label">01</p>
-            <h3>Data pipelines and analytics-ready workflows</h3>
-            <p>
-              I build robust processing workflows that turn raw, messy inputs into
-              reliable datasets for reporting, modeling, decision-making, and research.
-            </p>
-            <ul class="tag-list compact-tags">
-              <li>Python</li>
-              <li>SQL</li>
-              <li>ETL</li>
-              <li>Cloud Data Workflows</li>
-            </ul>
-          </article>
-          <article class="panel build-card">
-            <p class="build-label">02</p>
-            <h3>AI-enabled products and assistants</h3>
-            <p>
-              I build retrieval-backed assistants and AI workflows that are grounded,
-              cost-aware, and shaped around real product or operational needs.
-            </p>
-            <ul class="tag-list compact-tags">
-              <li>RAG</li>
-              <li>LangGraph</li>
-              <li>Prompt Design</li>
-              <li>Vector Databases</li>
-            </ul>
-          </article>
-          <article class="panel build-card">
-            <p class="build-label">03</p>
-            <h3>Backend platforms and internal tools</h3>
-            <p>
-              I build backend services, APIs, and internal tools that make systems
-              easier to operate, integrate, and maintain in production.
-            </p>
-            <ul class="tag-list compact-tags">
-              <li>Python</li>
-              <li>REST APIs</li>
-              <li>Flask</li>
-              <li>Cloud Services</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section capability-section">
-        <div class="section-heading">
-          <p class="eyebrow">Strength Areas</p>
-          <h2>What I can contribute quickly on a team.</h2>
-        </div>
-        <div class="capability-grid">
-          <article class="panel capability-card">
-            <h3>Data Engineering and Systems</h3>
-            <p>
-              Building reliable data movement, transformation, and processing layers
-              that support analytics, modeling, and internal operations.
-            </p>
-          </article>
-          <article class="panel capability-card">
-            <h3>Applied AI Execution</h3>
-            <p>
-              Translating LLM experimentation into grounded retrieval workflows, prompt
-              orchestration, and product-ready AI behavior.
-            </p>
-          </article>
-          <article class="panel capability-card">
-            <h3>Software Engineering</h3>
-            <p>
-              Building maintainable backend systems, APIs, service integrations, and
-              cloud-supported application workflows.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section split-section">
-        <div>
-          <div class="section-heading">
-            <p class="eyebrow">Education</p>
-            <h2>Academic foundation with recent specialization.</h2>
-          </div>
-          <div class="stack-list">
-            <article class="panel">
-              <h3>Master of Applied Computing</h3>
-              <p>University of Windsor, Windsor, Ontario</p>
-              <span class="muted">May 2023 - Aug 2024</span>
-            </article>
-            <article class="panel">
-              <h3>B.Tech in Computer Science and Engineering</h3>
-              <p>Gujarat Technological University, India</p>
-              <span class="muted">Aug 2018 - Mar 2022</span>
-            </article>
-            <article class="panel">
-              <h3>Continuous Technical Learning</h3>
-              <p>Python, machine learning, and AI certifications across applied domains</p>
-              <span class="muted">Coursera, IBM, Qwiklabs</span>
-            </article>
-          </div>
-        </div>
-
-        <div id="skills">
-          <div class="section-heading">
-            <p class="eyebrow">Skills</p>
-            <h2>Technical stack and strengths.</h2>
           </div>
           <div class="skill-groups">
-            <div class="panel">
-              <h3>Data Engineering and Infrastructure</h3>
+            <article class="skill-group" data-reveal>
+              <span class="skill-index">01 / DATA</span>
+              <h3>Data engineering</h3>
+              <p>Ingestion, transformation, and analysis.</p>
               <ul class="tag-list">
                 <li>Python</li>
                 <li>SQL</li>
+                <li>R</li>
+                <li>ETL Pipelines</li>
                 <li>Pandas</li>
                 <li>NumPy</li>
-                <li>ETL Pipelines</li>
                 <li>Databricks</li>
                 <li>Oracle Autonomous DB</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>AWS</li>
                 <li>Power BI</li>
               </ul>
-            </div>
-            <div class="panel">
-              <h3>Applied AI and Machine Learning</h3>
+            </article>
+            <article class="skill-group" data-reveal>
+              <span class="skill-index">02 / INTELLIGENCE</span>
+              <h3>Applied AI &amp; ML</h3>
+              <p>Retrieval, context, and intelligent workflows.</p>
               <ul class="tag-list">
-                <li>RAG</li>
                 <li>LangGraph</li>
+                <li>RAG</li>
                 <li>Vector Databases</li>
-                <li>Prompt Engineering</li>
-                <li>BERT</li>
+                <li>MCP</li>
+                <li>Context Engineering</li>
+                <li>LLM Evaluation</li>
                 <li>PyTorch</li>
                 <li>TensorFlow</li>
                 <li>Scikit-learn</li>
-                <li>Groq</li>
               </ul>
-            </div>
-            <div class="panel">
-              <h3>Software Engineering</h3>
+            </article>
+            <article class="skill-group" data-reveal>
+              <span class="skill-index">03 / INFRASTRUCTURE</span>
+              <h3>Cloud &amp; platforms</h3>
+              <p>Containerized, reproducible environments.</p>
+              <ul class="tag-list">
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>AWS S3</li>
+                <li>AWS EC2</li>
+                <li>HPC</li>
+                <li>Shell</li>
+                <li>Git</li>
+                <li>GitLab</li>
+                <li>Azure DevOps</li>
+              </ul>
+            </article>
+            <article class="skill-group" data-reveal>
+              <span class="skill-index">04 / APPLICATIONS</span>
+              <h3>Software development</h3>
+              <p>APIs, services, and product integrations.</p>
               <ul class="tag-list">
                 <li>Python</li>
                 <li>Java</li>
                 <li>REST APIs</li>
                 <li>Flask</li>
                 <li>React</li>
-                <li>Git</li>
-                <li>GitLab</li>
-                <li>Azure DevOps</li>
-                <li>Jupyter</li>
+                <li>API Integration</li>
+                <li>Function Calling</li>
+                <li>Structured Outputs</li>
               </ul>
-            </div>
-            <div class="panel">
-              <h3>Languages Spoken</h3>
-              <ul class="tag-list">
-                <li>English</li>
-                <li>Hindi</li>
-                <li>Gujarati</li>
-              </ul>
-            </div>
+            </article>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section contact-section" id="contact">
-        <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2>Let&apos;s connect.</h2>
-        </div>
-        <div class="contact-shell">
-          <div class="panel contact-intro">
-            <p class="contact-title">Open to thoughtful technical conversations and strong engineering opportunities.</p>
-            <p>
-              If you&apos;re hiring for data engineering, applied AI, or backend-heavy
-              software roles, I&apos;d be glad to connect. The best way to reach me is by
-              email, LinkedIn, or GitHub.
+        <section
+          class="section about-section"
+          id="about"
+          aria-labelledby="about-title"
+        >
+          <div class="about-copy" data-reveal>
+            <p class="eyebrow">
+              <span class="section-number">04</span> A little about me
             </p>
-            <div class="contact-actions">
-              <a class="button button-primary" href="mailto:darshb.08@gmail.com">Email Me</a>
-              <a class="button button-secondary" href="Resume/Darsh_Resume.pdf" target="_blank" rel="noreferrer">Open Resume</a>
+            <h2 id="about-title">
+              Curious about the problem.<br /><em>Serious about the build.</em>
+            </h2>
+            <p>
+              I&rsquo;m a Toronto-based engineer working across data, applied
+              AI, and software. At Charger Logistics, I build AI workflows that
+              connect enterprise data and tools. Before that, I worked on
+              research data pipelines at the University of Windsor and
+              conversational AI at ZenQuip.
+            </p>
+            <p>
+              I enjoy turning ambiguous problems into practical systems:
+              understanding the data, choosing the right approach, and building
+              something a team can actually use.
+            </p>
+            <div class="about-footnote">
+              <span>Beyond the code</span
+              ><span>English, Hindi &amp; Gujarati</span>
             </div>
           </div>
-          <div class="contact-methods">
-            <a class="contact-card" href="mailto:darshb.08@gmail.com">
-              <span class="contact-label">Email</span>
-              <strong>darshb.08@gmail.com</strong>
-              <span class="contact-note">Best for recruiter outreach and collaborations.</span>
-            </a>
-            <a class="contact-card" href="https://www.linkedin.com/in/darshb08/" target="_blank" rel="noreferrer">
-              <span class="contact-label">LinkedIn</span>
-              <strong>linkedin.com/in/darshb08</strong>
-              <span class="contact-note">Profile, experience, and professional updates.</span>
-            </a>
-            <a class="contact-card" href="https://github.com/darsh-008" target="_blank" rel="noreferrer">
-              <span class="contact-label">GitHub</span>
-              <strong>github.com/darsh-008</strong>
-              <span class="contact-note">Code, experiments, and technical project work.</span>
-            </a>
-            <a class="contact-card" href="Resume/Darsh_Resume.pdf" target="_blank" rel="noreferrer">
-              <span class="contact-label">Resume</span>
-              <strong>Darsh_Resume.pdf</strong>
-              <span class="contact-note">A concise version for quick review and sharing.</span>
-            </a>
+          <div class="education" data-reveal>
+            <p class="eyebrow">Education</p>
+            <article class="education-card">
+              <span class="education-date">2023 - 2024</span>
+              <h3>Master of Applied Computing</h3>
+              <p>University of Windsor</p>
+              <span class="muted">Windsor, Ontario</span>
+            </article>
+            <article class="education-card">
+              <span class="education-date">2018 - 2022</span>
+              <h3>B.Tech in Computer Science and Engineering</h3>
+              <p>Gujarat Technological University</p>
+              <span class="muted">India</span>
+            </article>
+            <a
+              class="text-link"
+              href="Resume/Darsh_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >View my full background
+              <svg class="icon" aria-hidden="true">
+                <use href="#arrow-up-right" /></svg
+            ></a>
           </div>
-        </div>
-        <div class="contact-footer">
-          <a href="https://www.linkedin.com/in/darshb08/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/darsh-008" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="mailto:darshb.08@gmail.com">Email</a>
-          <span>Toronto, Ontario</span>
-          <span>Darsh Bhatt</span>
-        </div>
-      </section>
-    </main>
-  </div>
+        </section>
 
-  <script src="script.js"></script>
-</body>
+        <section
+          class="section contact-section"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <div class="contact-panel" data-reveal>
+            <div class="contact-copy">
+              <p class="eyebrow">
+                <span class="section-number">05</span> Let&rsquo;s connect
+              </p>
+              <h2 id="contact-title">
+                Have something<br /><em>worth building?</em>
+              </h2>
+              <p>
+                I&rsquo;d love to hear about teams working on data platforms,
+                practical AI, and the software that brings them together.
+              </p>
+              <a class="contact-email" href="mailto:darshb.08@gmail.com"
+                >darshb.08@gmail.com
+                <svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg
+              ></a>
+              <div class="copy-row">
+                <button
+                  class="copy-email"
+                  type="button"
+                  data-email="darshb.08@gmail.com"
+                  hidden
+                >
+                  Copy email address</button
+                ><span
+                  class="copy-status"
+                  role="status"
+                  aria-live="polite"
+                ></span>
+              </div>
+            </div>
+            <div class="contact-methods">
+              <a
+                class="contact-link"
+                href="https://www.linkedin.com/in/darshb08/"
+                target="_blank"
+                rel="noreferrer"
+                ><span
+                  ><strong>Connect on LinkedIn</strong
+                  ><span>Experience &amp; professional updates</span></span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg></a
+              ><a
+                class="contact-link"
+                href="https://github.com/darsh-008"
+                target="_blank"
+                rel="noreferrer"
+                ><span
+                  ><strong>Explore my GitHub</strong
+                  ><span>Code &amp; technical work</span></span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#arrow-up-right" /></svg></a
+              ><a
+                class="contact-link"
+                href="Resume/Darsh_Resume.pdf"
+                download="Darsh_Bhatt_Resume.pdf"
+                ><span
+                  ><strong>Download my resume</strong
+                  ><span>A concise overview for your team</span></span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#download" /></svg
+              ></a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <a class="brand" href="#top"
+          ><span class="brand-mark" aria-hidden="true">db.</span
+          ><span>Darsh Bhatt</span></a
+        ><span>Data. Intelligence. Engineering.</span
+        ><a class="back-top" href="#top"
+          >Back to top
+          <svg class="icon" aria-hidden="true">
+            <use href="#arrow-up-right" /></svg
+        ></a>
+      </footer>
+    </div>
+  </body>
 </html>
